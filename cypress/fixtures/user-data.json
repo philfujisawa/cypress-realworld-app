@@ -1,0 +1,16 @@
+
+{  
+    "userSuccess": {
+      "username": "phil",
+      "password": "admin123",
+      "confirmpassword": "admin123"
+    },
+    "userFail1": {
+      "password": "12",
+      "confirmpassword": "12"
+    },
+    "userFail2": {
+      "password": "1234",
+      "confirmpassword": "1"
+    }
+  }

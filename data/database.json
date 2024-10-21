@@ -74,6 +74,39 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "cmajAT2LX",
+      "uuid": "a73dadb5-099a-4a61-97a0-4f72dc82f54b",
+      "firstName": "Philippe",
+      "lastName": "Fujisawa",
+      "username": "phil",
+      "password": "$2a$10$t6thd/ldUx3rdmdxde3wVexcqIsXHuQK8rMo8lc5a1LpZ9B3N6uU2",
+      "balance": 0,
+      "createdAt": "2024-10-21T21:27:42.729Z",
+      "modifiedAt": "2024-10-21T21:27:42.729Z"
+    },
+    {
+      "id": "RBvRw71aH",
+      "uuid": "733d75f9-cede-4a66-9a11-7293e8c03422",
+      "firstName": "Ethan",
+      "lastName": "Potter",
+      "username": "phil",
+      "password": "$2a$10$Xqz6op5xYLW3WSbPnEg9G.vAiCib0rpjmFdnvaT8VZCqFUtTVe1Ji",
+      "balance": 0,
+      "createdAt": "2024-10-21T21:30:19.470Z",
+      "modifiedAt": "2024-10-21T21:30:19.470Z"
+    },
+    {
+      "id": "umbv2dpRw",
+      "uuid": "0dedc361-6538-4929-b1bf-b2dd8ccec07b",
+      "firstName": "Mason",
+      "lastName": "Andres",
+      "username": "phil",
+      "password": "$2a$10$sg/5H7OJIwiqOKTjchECw.WdttrLM458csxjpVeicUuUPNYjrqCDK",
+      "balance": 0,
+      "createdAt": "2024-10-21T21:30:36.491Z",
+      "modifiedAt": "2024-10-21T21:30:36.491Z"
     }
   ],
   "contacts": [
@@ -253,6 +286,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "GWyrXb18W",
+      "uuid": "256ca2e7-621d-4aeb-902c-3a9b66e761b9",
+      "userId": "cmajAT2LX",
+      "bankName": "Bradesco",
+      "accountNumber": "777777777555",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2024-10-21T21:28:10.427Z",
+      "modifiedAt": "2024-10-21T21:28:10.427Z"
     }
   ],
   "transactions": [
