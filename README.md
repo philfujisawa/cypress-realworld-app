@@ -26,6 +26,7 @@ To clone the repo to your local system and install dependencies, execute the fol
 git clone https://github.com/philfujisawa/cypress-realworld-app.git
 cd cypress-realworld-app
 yarn
+npm install chance
 ```
 ### Run the app
 
