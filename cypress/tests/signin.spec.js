@@ -24,7 +24,7 @@ describe('SIGNIN feature test', () => {
     signinPage.checkAccessInvalidPassword(userData.userSuccess.username, userData.userFail1.password)
   });
 
-  it('Login FAIL User Name', () => {
+  it('Login FAIL User', () => {
     signinPage.accessSigninPage()
     signinPage.checkAccessInvalidUser(userData.userSuccess.username, userData.userFail2.password)
   });

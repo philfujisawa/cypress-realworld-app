@@ -76,37 +76,37 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "cmajAT2LX",
-      "uuid": "a73dadb5-099a-4a61-97a0-4f72dc82f54b",
-      "firstName": "Philippe",
-      "lastName": "Fujisawa",
+      "id": "aTRkjr_oW",
+      "uuid": "3cd48d97-00de-40ca-a7f1-a9b84fbe9603",
+      "firstName": "Katie",
+      "lastName": "Austin",
       "username": "phil",
-      "password": "$2a$10$t6thd/ldUx3rdmdxde3wVexcqIsXHuQK8rMo8lc5a1LpZ9B3N6uU2",
+      "password": "$2a$10$MwVlirWutpOwD2jy0oQ/UOCrw5n588Q9mJ8RxcIbGLFgcjbm215nK",
       "balance": 0,
-      "createdAt": "2024-10-21T21:27:42.729Z",
-      "modifiedAt": "2024-10-21T21:27:42.729Z"
+      "createdAt": "2024-10-21T21:54:29.575Z",
+      "modifiedAt": "2024-10-21T21:54:29.575Z"
     },
     {
-      "id": "RBvRw71aH",
-      "uuid": "733d75f9-cede-4a66-9a11-7293e8c03422",
-      "firstName": "Ethan",
-      "lastName": "Potter",
+      "id": "vshlsH0ro",
+      "uuid": "9ffabd2a-3345-4a94-aabd-ba0f791abd89",
+      "firstName": "Frederick",
+      "lastName": "Hale",
       "username": "phil",
-      "password": "$2a$10$Xqz6op5xYLW3WSbPnEg9G.vAiCib0rpjmFdnvaT8VZCqFUtTVe1Ji",
+      "password": "$2a$10$tWjt1J7bseVxCx2RHOHpqOf.Y0zfPzmSMi5Y8U6gK/k70EYohc28a",
       "balance": 0,
-      "createdAt": "2024-10-21T21:30:19.470Z",
-      "modifiedAt": "2024-10-21T21:30:19.470Z"
+      "createdAt": "2024-10-21T21:56:34.315Z",
+      "modifiedAt": "2024-10-21T21:56:34.315Z"
     },
     {
-      "id": "umbv2dpRw",
-      "uuid": "0dedc361-6538-4929-b1bf-b2dd8ccec07b",
-      "firstName": "Mason",
-      "lastName": "Andres",
+      "id": "TI7NL__Yg",
+      "uuid": "b3fe15e0-2eed-47da-918f-476dc5555f83",
+      "firstName": "Alejandro",
+      "lastName": "Aoki",
       "username": "phil",
-      "password": "$2a$10$sg/5H7OJIwiqOKTjchECw.WdttrLM458csxjpVeicUuUPNYjrqCDK",
+      "password": "$2a$10$Hu5USuustcAt0.n6zZhS/OIGt.Ohjbkt8rFM2uHcadEWDSHKt29FS",
       "balance": 0,
-      "createdAt": "2024-10-21T21:30:36.491Z",
-      "modifiedAt": "2024-10-21T21:30:36.491Z"
+      "createdAt": "2024-10-21T22:18:34.110Z",
+      "modifiedAt": "2024-10-21T22:18:34.110Z"
     }
   ],
   "contacts": [
@@ -286,17 +286,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "GWyrXb18W",
-      "uuid": "256ca2e7-621d-4aeb-902c-3a9b66e761b9",
-      "userId": "cmajAT2LX",
-      "bankName": "Bradesco",
-      "accountNumber": "777777777555",
-      "routingNumber": "123456789",
-      "isDeleted": false,
-      "createdAt": "2024-10-21T21:28:10.427Z",
-      "modifiedAt": "2024-10-21T21:28:10.427Z"
     }
   ],
   "transactions": [
