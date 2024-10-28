@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 284853,
+      "balance": 150953,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -74,41 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "mEtTRhFuZ",
-      "uuid": "f604ab00-435d-4a78-9712-cc39e3e361d9",
-      "firstName": "Travis",
-      "lastName": "Saccardi",
-      "username": "Luna",
-      "password": "$2a$10$z1cl06I6vl3jRZYIUveo9eb9aY5bwdXbSwquLEZYqP9Km3NJ4lEwK",
-      "balance": 0,
-      "createdAt": "2024-10-28T17:46:40.493Z",
-      "modifiedAt": "2024-10-28T17:46:40.493Z"
-    },
-    {
-      "id": "9URoz1x7o",
-      "uuid": "73471336-ed74-4ca1-b3e2-a00aa5720e1a",
-      "firstName": "Philippe",
-      "lastName": "Fujisawa",
-      "username": "phil",
-      "password": "$2a$10$EQtkCTdzXUm.P/3WqZejo.3OzixTEpm/3RRVYnSQZnjyQv1iCb98G",
-      "email": "phil@qa.com",
-      "phoneNumber": "123456",
-      "balance": 0,
-      "createdAt": "2024-10-28T17:49:28.818Z",
-      "modifiedAt": "2024-10-28T17:49:28.818Z"
-    },
-    {
-      "id": "oRKZ2EdjO",
-      "uuid": "dc91054f-e0b6-440c-8fad-30f1e141020d",
-      "firstName": "Marc",
-      "lastName": "Becker",
-      "username": "Wong",
-      "password": "$2a$10$FvRsiSnrIqJril8K3.hZsetthJr4cd5c6jKccLIi.9UJIMFAm6gHO",
-      "balance": 0,
-      "createdAt": "2024-10-28T18:03:34.047Z",
-      "modifiedAt": "2024-10-28T18:03:34.047Z"
     }
   ],
   "contacts": [
@@ -288,39 +253,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "mU_V9dG6n",
-      "uuid": "7d37187f-4d7b-4e53-b555-a6c95ee20790",
-      "userId": "mEtTRhFuZ",
-      "bankName": "Bradesco",
-      "accountNumber": "777777777555",
-      "routingNumber": "123456789",
-      "isDeleted": false,
-      "createdAt": "2024-10-28T17:46:42.431Z",
-      "modifiedAt": "2024-10-28T17:46:42.431Z"
-    },
-    {
-      "id": "EjLt7n2m2",
-      "uuid": "25dc4d94-8ee2-451b-a971-05a1a3fb41b2",
-      "userId": "9URoz1x7o",
-      "bankName": "Bradesco",
-      "accountNumber": "777777777555",
-      "routingNumber": "123456789",
-      "isDeleted": false,
-      "createdAt": "2024-10-28T17:49:45.791Z",
-      "modifiedAt": "2024-10-28T17:49:45.791Z"
-    },
-    {
-      "id": "jmq7EYqMJ",
-      "uuid": "0a2d6bb8-f82c-4f5f-b5de-29cf2bbdbef4",
-      "userId": "oRKZ2EdjO",
-      "bankName": "Bradesco",
-      "accountNumber": "777777777555",
-      "routingNumber": "123456789",
-      "isDeleted": false,
-      "createdAt": "2024-10-28T18:03:35.979Z",
-      "modifiedAt": "2024-10-28T18:03:35.979Z"
     }
   ],
   "transactions": [
@@ -9923,39 +9855,6 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
-    },
-    {
-      "id": "moqoKhrOT",
-      "uuid": "75393d89-c729-4d57-9c1b-10108b869854",
-      "amount": 32600,
-      "description": "Payment",
-      "receiverId": "uBmeaz5pX",
-      "senderId": "mEtTRhFuZ",
-      "status": "complete",
-      "createdAt": "2024-10-28T17:46:43.620Z",
-      "modifiedAt": "2024-10-28T17:46:43.620Z"
-    },
-    {
-      "id": "f6-D5cevY",
-      "uuid": "8bb99853-1d2d-46d4-952a-e83d3d2a14ba",
-      "amount": 24900,
-      "description": "Payment",
-      "receiverId": "uBmeaz5pX",
-      "senderId": "9URoz1x7o",
-      "status": "complete",
-      "createdAt": "2024-10-28T17:54:26.950Z",
-      "modifiedAt": "2024-10-28T17:54:26.950Z"
-    },
-    {
-      "id": "VJg4FsH1P",
-      "uuid": "e11fbb23-6798-43fd-bb8d-636958c51326",
-      "amount": 76400,
-      "description": "Payment",
-      "receiverId": "uBmeaz5pX",
-      "senderId": "oRKZ2EdjO",
-      "status": "complete",
-      "createdAt": "2024-10-28T18:03:37.093Z",
-      "modifiedAt": "2024-10-28T18:03:37.093Z"
     }
   ],
   "likes": [
@@ -10532,36 +10431,6 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
-    },
-    {
-      "id": "4L2psnkFVY",
-      "uuid": "a9628c59-7759-43bb-a1d6-160ec54180df",
-      "userId": "uBmeaz5pX",
-      "transactionId": "moqoKhrOT",
-      "status": "received",
-      "isRead": false,
-      "createdAt": "2024-10-28T17:46:43.633Z",
-      "modifiedAt": "2024-10-28T17:46:43.633Z"
-    },
-    {
-      "id": "WF_kfJN65R",
-      "uuid": "9fc7f529-9ca8-4165-97dc-a01e98e659d4",
-      "userId": "uBmeaz5pX",
-      "transactionId": "f6-D5cevY",
-      "status": "received",
-      "isRead": false,
-      "createdAt": "2024-10-28T17:54:26.962Z",
-      "modifiedAt": "2024-10-28T17:54:26.962Z"
-    },
-    {
-      "id": "k5sZ05h87E",
-      "uuid": "7234b5ce-b202-4c3a-be76-a31085e04d43",
-      "userId": "uBmeaz5pX",
-      "transactionId": "VJg4FsH1P",
-      "status": "received",
-      "isRead": false,
-      "createdAt": "2024-10-28T18:03:37.104Z",
-      "modifiedAt": "2024-10-28T18:03:37.104Z"
     }
   ],
   "banktransfers": [
@@ -11114,36 +10983,6 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
-    },
-    {
-      "id": "tL8TIPq_o_",
-      "uuid": "ca149060-3366-4f17-8b2f-a63abeab36aa",
-      "userId": "mEtTRhFuZ",
-      "amount": 32600,
-      "transactionId": "moqoKhrOT",
-      "type": "withdrawal",
-      "createdAt": "2024-10-28T17:46:43.623Z",
-      "modifiedAt": "2024-10-28T17:46:43.623Z"
-    },
-    {
-      "id": "Uayq6b0iE9",
-      "uuid": "48edc44d-cb83-43a3-9108-6b488a1b4377",
-      "userId": "9URoz1x7o",
-      "amount": 24900,
-      "transactionId": "f6-D5cevY",
-      "type": "withdrawal",
-      "createdAt": "2024-10-28T17:54:26.953Z",
-      "modifiedAt": "2024-10-28T17:54:26.953Z"
-    },
-    {
-      "id": "IwyumC3f8D",
-      "uuid": "1a3fbd77-3fc0-4459-9228-b68f032ee44f",
-      "userId": "oRKZ2EdjO",
-      "amount": 76400,
-      "transactionId": "VJg4FsH1P",
-      "type": "withdrawal",
-      "createdAt": "2024-10-28T18:03:37.096Z",
-      "modifiedAt": "2024-10-28T18:03:37.096Z"
     }
   ]
 }
