@@ -1,37 +1,60 @@
-name: CI
+name: Cypress Tests
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    branches-ignore:
+      - "renovate/**"
 
 jobs:
+  install:
+    runs-on: ubuntu-latest
+    container:
+      image: cypress/browsers:node-20.12.0-chrome-123.0.6312.86-1-ff-124.0.2-edge-123.0.2420.65-1
+      options: --user 1001
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cypress install
+        uses: cypress-io/github-action@v6
+        with:
+          runTests: false
+      # report machine parameters
+      - run: yarn cypress info
+      - run: node --version
+      - run: node -p 'os.cpus()'
+      - run: yarn types
+      - run: yarn prettier --write "**/**.{ts,js,tsx}" "*.{json,md,yml}"
+      - run: yarn lint
+      - run: yarn test:unit:ci
+      - run: yarn build:ci
+
+      - name: Save build folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          if-no-files-found: error
+          path: build
+
   cypress-run:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Start application
-        run: npm start &
-        env:
-          CI: true
+        run: yarn install
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v6
         with:
-          start: npm start
+          build: yarn build
+          start: yarn start
           wait-on: 'http://localhost:3000'
+          wait-on-timeout: 120
           browser: chrome
