@@ -81,8 +81,8 @@ jobs:
           browser: chrome
           record: true
           parallel: true
-          group: "UI - Chrome"
-          spec: cypress/tests*
+          group: "All Tests"
+          spec: "cypress/tests/*.spc.js"
           config-file: cypress.config.ts
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
