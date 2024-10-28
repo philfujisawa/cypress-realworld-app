@@ -19,12 +19,16 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           runTests: false
-      # report machine parameters
-      - run: yarn cypress info
-      - run: node --version
-      - run: node -p 'os.cpus()'
-      - run: yarn types
-      - run: yarn lint
+      - name: report machine parameters
+        run: |
+          yarn cypress info
+          node --version
+          node -p 'os.cpus()'
+      - name: Install dependencies and lint
+        run: |
+          yarn types
+          yarn prettier --write "**/**.{ts,js,tsx}" "*.{json,md,yml}"
+          yarn lint
       - run: yarn test:unit:ci
       - run: yarn build:ci
 
