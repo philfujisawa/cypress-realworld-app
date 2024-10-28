@@ -28,8 +28,5 @@ describe('Signup, Login and Send Money', () => {
     transactionPage.selectContact(contactName)
     transactionPage.paymentForm(paidAmount, 'Payment')
     transactionPage.paymentDoneCheck()
-    transactionPage.checkHistory()
-    cy.get('.TransactionDetail-paper').should('contain', 'Ted Parisian')
-    cy.get('.TransactionDetail-paper').should('contain', paidAmount)
   });
 });

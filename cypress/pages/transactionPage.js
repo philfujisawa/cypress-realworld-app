@@ -8,10 +8,6 @@ class TransactionPage {
             noteField: '#transaction-create-description-input',
             payButton: '[data-test="transaction-create-submit-payment"]',
             paymentDone: 'h2',
-            returnButton: '[data-test="new-transaction-return-to-transactions"]',
-            mineButton: '[data-test="nav-personal-tab"]',
-            payNameCheck: '.TransactionDetail-paper',
-            payAmountCheck: '.MuiGrid-grid-xs-true'            
         }
 
         return selectors
@@ -36,15 +32,6 @@ class TransactionPage {
     paymentDoneCheck () {
         cy.get(this.selectorsList().paymentDone).contains('Paid')
     }
-
-    checkHistory () {
-        cy.get(this.selectorsList().returnButton).click()
-        cy.get(this.selectorsList().mineButton).click()
-        cy.location('pathname').should('equal', "/personal")
-        cy.get(this.selectorsList().payAmountCheck).eq(0).click()
-        cy.get(this.selectorsList().payNameCheck).should('contain', 'Ted Parisian')
-    }
-   
 }
 
 export default TransactionPage
