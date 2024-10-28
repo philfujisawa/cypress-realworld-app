@@ -11,6 +11,7 @@ describe('SIGNIN feature test', () => {
   it('Login SUCCESS', () => {
     signinPage.accessSigninPage()
     signinPage.loginAnyWithUser(userData.userSuccess.username, userData.userSuccess.password)
+    cy.wait(2000)
     cy.get("[data-test='sidenav-home']").should("contain", "Home")
   });
 

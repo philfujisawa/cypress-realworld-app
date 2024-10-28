@@ -31,6 +31,7 @@ class InitialPage {
     }
 
     checkHomePage () {
+        cy.wait(2000)
         cy.get(this.selectorsList().homeText).should('be.visible')
     }
 
