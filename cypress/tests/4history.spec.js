@@ -10,20 +10,19 @@ const signinPage = new SigninPage()
 const initialPage = new InitialPage()
 const historyPage = new HistoryPage()
 
-describe('Login, check Transaction History and Before', () => {
-  it('Login, Transaction Check OK', () => {
+describe('Login, check Transaction History All and Mine', () => {
+  it('Login, Transaction All Check', () => {
     signinPage.accessSigninPage()
     signinPage.loginAnyWithUser(userData.userSuccess.username, userData.userSuccess.password)
     initialPage.checkHomePage()
-    historyPage.checkHistory()
+    historyPage.checkAllHistory()
   
   });
 
-  it('Login, Before Transaction Check Zero', () => {
+  it('Login, Mine Transaction Check', () => {
     signinPage.accessSigninPage()
     signinPage.loginAnyWithUser(userData.userSuccess.username, userData.userSuccess.password)
     initialPage.checkHomePage()
-    historyPage.checkHistory()
-    historyPage.checkHistoryBefore()
+    historyPage.checkMineHistory()
   });
 });

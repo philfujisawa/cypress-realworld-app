@@ -1,18 +1,19 @@
 import userData from "../fixtures/user-data.json"
 import SigninPage from "../pages/signinPage.js"
+import InitialPage from "../pages/initialPage.js"
 
 const Chance = require('chance');
 
 const chance = new Chance();
 const signinPage = new SigninPage()
+const initialPage = new InitialPage()
 
 
 describe('SIGNIN feature test', () => {
   it('Login SUCCESS', () => {
     signinPage.accessSigninPage()
     signinPage.loginAnyWithUser(userData.userSuccess.username, userData.userSuccess.password)
-    cy.wait(2000)
-    cy.get("[data-test='sidenav-home']").should("contain", "Home")
+    initialPage.checkHomePage()
   });
 
   it('Login FAIL User Name', () => {
