@@ -1,6 +1,17 @@
 # Cypress RealWorld App
 
-This repository from (https://github.com/cypress-io/cypress-realworld-app) contains Cypress end-to-end tests for the RealWorld application, focusing on Sign In and Sign Up functionalities.
+![Capa](assets/cypress-realworld-app.png)
+_This repository from (https://github.com/cypress-io/cypress-realworld-app) contains my individual Cypress end-to-end tests for the RealWorld application, focusing on Sign In, Sign Up, Send Money and Transaction History functionalities._
+
+**Para README em Português acessar no repositório o documento README-PTBR.md**
+
+**This Cypress automation will cover:**
+
++ signup.spec.js: Tests user registration and validations.
++ signin.spec.js: Verifies login functionality.
++ sendMoney.spec.js: User send money and check transation confirmation.
++ history.spec.js: User check transaction history.
++ **Bug Report** about balance issue at report paste `reports => bug_001.md`
 
 ### Prerequisites
 
@@ -8,7 +19,7 @@ This project requires [Node.js](https://nodejs.org/en/) to be installed on your 
 
 [Yarn Classic](https://classic.yarnpkg.com/) is also required. Once you have [Node.js](https://nodejs.org/en/) installed, execute the following to install the npm module [yarn](https://www.npmjs.com/package/yarn) (Classic - version 1) globally.
 
-```shell
+```
 npm install yarn@latest -g
 ```
 
@@ -22,7 +33,7 @@ If you have Node.js' experimental [Corepack](https://nodejs.org/dist/latest/docs
 
 To clone the repo to your local system and install dependencies, execute the following commands:
 
-```shell
+```
 git clone https://github.com/philfujisawa/cypress-realworld-app.git
 cd cypress-realworld-app
 yarn
@@ -30,17 +41,14 @@ npm install chance
 ```
 ### Run the app
 
-```shell
+```
 yarn dev
 ```
 
 ### Start Cypress
 
-```shell
+```
 yarn cypress:open
 ```
 
-This Cypress automation will cover:
-
-signin.spec.js: Verifies login functionality.
-signup.spec.js: Tests user registration and validations.
+THANK YOU SO MUCH!
